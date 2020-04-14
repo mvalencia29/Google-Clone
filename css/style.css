@@ -1,3 +1,6 @@
+*{
+    list-style: none;
+}
 
 body{
     margin : 0;
@@ -25,7 +28,6 @@ header nav .nav-right-section{
     width: 250px;
     height: auto;
     display: flex;
-    list-style: none;
     justify-content: center;
     align-items: center;
 }
@@ -137,3 +139,40 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 1px #00000001;
     color: #222;
 }
+
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer .footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    display: flex;
+    padding-left: 0;    
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
+
